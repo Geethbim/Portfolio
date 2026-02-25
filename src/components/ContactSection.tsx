@@ -5,16 +5,16 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-24 bg-white dark:bg-slate-950 transition-colors duration-300">
+      className="py-24 bg-transparent transition-colors duration-300">
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 transition-colors duration-300">
               Get In Touch
             </h2>
             <div className="h-1.5 w-20 bg-sky-500 mx-auto rounded-full"></div>
-            <p className="mt-4 text-slate-600 dark:text-slate-300 max-w-2xl mx-auto transition-colors duration-300">
+            <p className="mt-4 text-slate-600 dark:text-slate-300 transition-colors duration-300">
               I'm currently looking for internship opportunities. Whether you
               have a question or just want to say hi, I'll try my best to get
               back to you!

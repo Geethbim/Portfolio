@@ -13,11 +13,11 @@ html {
   font-family: 'Inter', sans-serif;
 }
 body {
-  @apply bg-white text-slate-600 antialiased transition-colors duration-300;
+  @apply bg-slate-50 text-slate-600 antialiased transition-colors duration-300;
 }
 /* Dark mode body styles */
 .dark body {
-  @apply bg-slate-950 text-slate-300;
+  @apply bg-slate-900 text-slate-300;
 }
 /* Custom scrollbar for a polished look */
 ::-webkit-scrollbar {

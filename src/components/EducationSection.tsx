@@ -5,9 +5,9 @@ export function EducationSection() {
   return (
     <section
       id="education"
-      className="py-24 bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+      className="py-24 bg-transparent transition-colors duration-300">
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 transition-colors duration-300">
@@ -18,7 +18,7 @@ export function EducationSection() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <div className="max-w-4xl mx-auto">
+          <div className="w-full">
             <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 md:p-10 shadow-sm dark:shadow-none border border-slate-200 dark:border-slate-700 relative overflow-hidden transition-all duration-300">
               <div className="absolute top-0 left-0 w-2 h-full bg-sky-500"></div>
 

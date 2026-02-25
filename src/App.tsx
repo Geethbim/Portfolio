@@ -13,7 +13,7 @@ import { ThemeProvider } from './components/ThemeContext';
 export function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-slate-950 text-slate-600 dark:text-slate-300 font-sans selection:bg-sky-100 selection:text-sky-900 dark:selection:bg-sky-900 dark:selection:text-sky-100 transition-colors duration-300">
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-600 dark:text-slate-300 font-sans selection:bg-sky-100 selection:text-sky-900 dark:selection:bg-sky-900 dark:selection:text-sky-100 transition-colors duration-300">
         <Navbar />
         <main>
           <HeroSection />

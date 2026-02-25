@@ -3,14 +3,14 @@ import { ArrowRight, Download, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-10 overflow-hidden bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-10 overflow-hidden bg-transparent transition-colors duration-300">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute -top-[20%] -right-[10%] w-[70%] h-[70%] rounded-full bg-sky-100/50 dark:bg-sky-900/20 blur-3xl transition-colors duration-300" />
         <div className="absolute top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-blue-100/30 dark:bg-blue-900/20 blur-3xl transition-colors duration-300" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="w-full px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Profile Picture — shows first on mobile */}
           <motion.div
@@ -140,7 +140,7 @@ export function HeroSection() {
               Aspiring Software Engineer | QA Engineer | IT Project Manager
             </h2>
 
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mb-10 leading-relaxed transition-colors duration-300 lg:mx-0 mx-auto">
+            <p className="text-lg text-slate-600 dark:text-slate-300 mb-10 leading-relaxed transition-colors duration-300 lg:mx-0 mx-auto">
               Highly motivated Computer Science and Technology undergraduate at
               Uva Wellassa University of Sri Lanka with strong foundations in
               software development, testing, and project coordination.
