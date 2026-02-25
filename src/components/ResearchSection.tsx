@@ -7,7 +7,7 @@ export function ResearchSection() {
       id="research"
       className="py-24 bg-transparent transition-colors duration-300">
 
-      <div className="w-full px-4 sm:px-6 lg:px-8">
+      <div className="w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 transition-colors duration-300">

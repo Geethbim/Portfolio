@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 export function Footer() {
   return (
     <footer className="bg-transparent text-slate-600 dark:text-slate-300 py-12 transition-colors duration-300">
-      <div className="w-full px-4 sm:px-6 lg:px-8">
+      <div className="w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2 transition-colors duration-300">

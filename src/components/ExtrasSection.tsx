@@ -4,7 +4,7 @@ import { ScrollReveal } from './ScrollReveal';
 export function ExtrasSection() {
   return (
     <section className="py-24 bg-transparent transition-colors duration-300">
-      <div className="w-full px-4 sm:px-6 lg:px-8">
+      <div className="w-[85%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Certifications & Achievements */}
           <ScrollReveal>
